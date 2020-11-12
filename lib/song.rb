@@ -1,5 +1,5 @@
 class Song
-
+  initialize
 
 end
 
