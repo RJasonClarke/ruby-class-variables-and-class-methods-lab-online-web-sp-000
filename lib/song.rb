@@ -1,9 +1,10 @@
 class Song
   attr_accessor
-  initialize
+  def initialize
   @name
   @artist
   @genre
+  end
 end
 
 ninety_nine_problems = Song.new("99 Problems", "Jay-Z", "rap")
