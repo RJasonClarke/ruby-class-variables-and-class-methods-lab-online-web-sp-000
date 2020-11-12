@@ -13,6 +13,10 @@ class Song
     @@count
   end
 
+  def self.genre
+
+  end
+
 end
 
 ninety_nine_problems = Song.new("99 Problems", "Jay-Z", "rap")
