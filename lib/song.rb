@@ -5,6 +5,9 @@ class Song
   @artist = artist
   @genre = genre
   end
+
+  @@count = 0
+
 end
 
 ninety_nine_problems = Song.new("99 Problems", "Jay-Z", "rap")
